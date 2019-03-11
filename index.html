@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="icon" href="https://www.amt.genova.it/amt/wp-content/uploads/2015/12/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/opensans.css"> -->
+    <link rel="stylesheet" href="css/dataTables.jqueryui.min.css">
+    <title>AMT Genova | Registrazione</title>
+</head>
+<body class="fixed-top" style="font-family: 'Arial'">
+<nav id="navbar-portalefornitori" class="navbar navbar-fixed-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#side-menu"
+                aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="title">
+        <a id="logo_sito" title="AMT | Portale Fornitori" class="navbar-brand link-visualizza" href="index.html"
+           data-placement="bottom" data-toggle="tooltip"><img src="" class="logo_sito"></a>
+        <div id="header-text"></div>
+    </div>
+    <!-- BREADCRUMB -->
+    <div id="breadcrumb" class="breadcrumb">
+        <a href="index.html"><i class="fa fa-home"></i> </a>
+        &nbsp;|&nbsp;
+        <a href="tipofornitore.html"><i class="fa fa-code-fork"></i> </a>
+        &nbsp;|&nbsp;
+        <i class="fa fa-pencil"></i>
+    </div>
+</nav>
+
+<div id="page-wrapper">
+    <!-- SIDE MENU -->
+    <!--<div id="side-menu-container" class="sidebar">-->
+    <!--<div id="side-menu" class="sidebar-nav navbar-collapse collapse">-->
+    <!--<ul class="nav in">-->
+    <!--<li>-->
+    <!--<a class="btn btn-amtside" href="index.html">-->
+    <!--<i class="fa fa-home"></i>-->
+    <!--<span class="menu-title">aaa</span>-->
+    <!--<span class="sr-only">(current)</span></a>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!-- CONTENUTO PAGINA -->
+    <div id="page-content">
+        <!--<div id="sceltaFornitore" class="form_container">-->
+
+
+        <div id="sub" class="dialog-prova" title="Choose substitute">
+            <div class="row">
+                <div class="form-group">
+                    <label class="col-md-3 col-xs-12 text-right control-label">Campo 1</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="field1">
+                        <input type="text" class="form-control" id="field2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--</div>-->
+        <div id="iscrizioneProfessionista">
+            <div class="row">
+                <!--<button type="button" class="btn btn-amt pull-right" id="conf"><b><i class="fa fa-save"></i> Configure</b>-->
+                <!--</button>-->
+                <!--<button id="get_data" type="button" class="btn btn-amt pull-right" style="margin-right: 10px;"><b>Get Data</b>-->
+                <!--</button>-->
+
+                <button class="btn btn-lg btn-success" id="add-new-element">Aggiungi</button>
+                <button class="btn btn-lg btn-warning" id="modify-element">Modifica</button>
+                <button class="btn btn-lg btn-danger" id="delete-element">Elimina</button>
+                <button class="btn btn-lg btn-default" id="open-dialog">Apri</button>
+
+            </div>
+            <br>
+            <div class="row">
+                <table id="table-test"></table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END  PAGE-WRAPPER MENU COMMON  -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/dataTables.jqueryui.min.js"></script>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
