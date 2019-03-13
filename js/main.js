@@ -165,8 +165,8 @@ $(function () {
 
         ctr.addListeners = function() {
             $(conf.addElementSelector).on('click', ctr.addElementToTable);
-            $(ctr.datatableController.selector).on('click', '.row-edit',  ctr.m);
-            $(ctr.datatableController.selector).on('click', '.row-delete', ctr.del);
+            $(ctr.datatableController.$element.selector).on('click', '.row-edit',  ctr.m);
+            $(ctr.datatableController.$element.selector).on('click', '.row-delete', ctr.del);
             $('#delete-element').on('click', ctr.deleteElement);
             $('#open-dialog').on('click', ctr.openDialog);
         };
